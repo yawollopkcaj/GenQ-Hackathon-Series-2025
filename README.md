@@ -1,10 +1,10 @@
-# 2nd Place 🥈 Winners GenQ Hackathon Series - Quantum in Finance
+# 2nd Place 🥈 Winners GenQ Hackathon Series, Quantum in Finance
 
-## Challenge: Counterparty Credit Risk - Quantum Hackathon
+## Challenge: Counterparty Credit Risk, Quantum Hackathon
 
 This project implements a quantum-enhanced Monte Carlo method for calculating Potential Future Exposure (PFE) of a financial derivatives portfolio using Quantum Amplitude Estimation (QAE).
 
-## 🎯 Project Overview
+## Project Overview
 
 ### Problem Statement
 Traditional Monte Carlo simulations for PFE calculation require millions of samples to achieve accurate risk estimates, making them computationally intensive. This quantum approach leverages amplitude amplification to achieve quadratic speedup in convergence.
@@ -14,7 +14,7 @@ Traditional Monte Carlo simulations for PFE calculation require millions of samp
 - **Correlated Asset Modeling**: Quantum states encode correlation structure between assets
 - **Portfolio Aggregation**: Quantum arithmetic (Hamiltonian Dynamics) for efficient calculation
 
-## 📊 Technical Architecture
+## Technical Architecture
 
 ### 1. Quantum State Preparation
 - Encodes log-normal distributions for asset prices in quantum amplitudes
@@ -31,7 +31,7 @@ Traditional Monte Carlo simulations for PFE calculation require millions of samp
 - Iterative amplitude amplification for PFE quantile estimation
 - Theoretical quadratic speedup: O(√N) vs O(N) queries
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -51,7 +51,7 @@ python quantum_pfe_calculator.py
 dotnet run --project QuantumPFE.csproj
 ```
 
-## 📈 Results & Performance
+## Results & Performance
 
 ### Portfolio Composition
 - 7 positions: 2 FX options, 5 equity options
@@ -70,6 +70,20 @@ dotnet run --project QuantumPFE.csproj
 - **Classical PFE (95%)**: Computed from 30,000 Monte Carlo simulations
 - **Quantum PFE (95%)**: Estimated using 4-5 QAE iterations
 - **Accuracy**: Within 5% of classical result with 99% fewer evaluations
+
+<p align="center">
+<caption><b>Full Competition Run (10x Speed)</b></caption>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6caf2151-10b9-4861-9311-b519a5b49136" width="600" />
+</p>
+
+<p align="center">
+<caption><b>Full Competition Run (10x Speed)</b></caption>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/13e49577-d024-4c74-b69e-ee4a5d620e74" width="600" />
+</p>
 
 ## 🔬 Technical Deep Dive
 
