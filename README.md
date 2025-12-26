@@ -85,7 +85,7 @@ dotnet run --project QuantumPFE.csproj
   <img src="https://github.com/user-attachments/assets/13e49577-d024-4c74-b69e-ee4a5d620e74" width="600" />
 </p>
 
-## 🔬 Technical Deep Dive
+## Technical Deep Dive
 
 ### Quantum Circuit Components
 
@@ -115,7 +115,7 @@ where:
 - σ = standard deviation
 ```
 
-## 🎯 Path to Quantum Advantage
+## Path to Quantum Advantage
 
 ### Current Implementation (NISQ-ready)
 - **Qubits Required**: 30-40 for basic portfolio
@@ -133,7 +133,7 @@ where:
 3. **Credit exposure profiles over time
 4. **Real-time risk recalculation
 
-## 💼 Business Case
+## Business Case
 
 ### Value Proposition
 - **Speed**: 100-1000x faster risk calculations
@@ -152,7 +152,7 @@ where:
 - Central clearing houses
 - Regulatory bodies
 
-## 🌍 SDG Impact
+## SDG Impact
 
 ### SDG 8: Decent Work and Economic Growth
 - **Financial Stability**: Better risk management prevents systemic crises
@@ -179,14 +179,14 @@ where:
 - **Solution**: Efficient quantum correlation circuits
 - **Implementation**: Controlled rotation gates
 
-## 📚 References
+## References
 
 1. [Quantum Amplitude Estimation](https://arxiv.org/pdf/1905.02666)
 2. [Risk Analysis using Quantum Computers](https://www.nature.com/articles/s41534-019-0130-6)
 3. [Quantum Risk Models](https://arxiv.org/pdf/2103.05475)
 4. [Q# Documentation](https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview)
 
-## 🏆 Key Achievements
+## Key Achievements
 
 ✅ Functional quantum Monte Carlo implementation  
 ✅ 176x theoretical speedup demonstrated  
@@ -195,15 +195,7 @@ where:
 ✅ Clear path to quantum advantage identified  
 ✅ Business case and SDG impact analyzed  
 
-## 📊 Visualization
-
-The implementation includes comprehensive visualizations showing:
-- Portfolio value distributions
-- Convergence comparison (Classical vs Quantum)
-- Asset contribution analysis
-- Quantum speedup scaling
-
-## 🚀 Next Steps
+## Next Steps
 
 1. **Hardware Testing**: Deploy on IONQ/IBM quantum computers
 2. **Circuit Optimization**: Reduce gate depth by 50%
@@ -214,5 +206,5 @@ The implementation includes comprehensive visualizations showing:
 ---
 
 **Team**: JEAF
-**Hackathon**: GenQ Hackathon Series - Quantum for Finance
+**Hackathon**: GenQ Hackathon Series, Quantum for Finance
 **Date**: 2025  
