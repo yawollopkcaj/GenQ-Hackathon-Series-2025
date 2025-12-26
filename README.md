@@ -72,14 +72,14 @@ dotnet run --project QuantumPFE.csproj
 - **Accuracy**: Within 5% of classical result with 99% fewer evaluations
 
 <p align="center">
-<caption><b>Full Competition Run (10x Speed)</b></caption>
+<caption><b>Theoretical Error Scaling</b></caption>
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6caf2151-10b9-4861-9311-b519a5b49136" width="600" />
 </p>
 
 <p align="center">
-<caption><b>Full Competition Run (10x Speed)</b></caption>
+<caption><b>Sample Efficiency</b></caption>
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13e49577-d024-4c74-b69e-ee4a5d620e74" width="600" />
